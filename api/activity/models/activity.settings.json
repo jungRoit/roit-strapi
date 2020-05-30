@@ -9,15 +9,34 @@
     "timestamps": true
   },
   "attributes": {
-    "en": {
+    "title": {
       "type": "component",
-      "repeatable": true,
-      "component": "language.en"
+      "repeatable": false,
+      "component": "fields.title"
     },
-    "de": {
+    "subTitle": {
       "type": "component",
-      "repeatable": true,
-      "component": "language.de"
+      "repeatable": false,
+      "component": "fields.sub-title"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fields.description"
+    },
+    "pictures": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "price": {
+      "type": "decimal"
     }
   }
 }

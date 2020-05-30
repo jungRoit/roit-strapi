@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_fields_sub_titles",
+  "info": {
+    "name": "subTitle",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "EN": {
+      "type": "string"
+    },
+    "DE": {
+      "type": "string"
+    },
+    "ES": {
+      "type": "string"
+    }
+  }
+}

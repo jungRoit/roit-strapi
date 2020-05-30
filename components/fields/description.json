@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_fields_descriptions",
+  "info": {
+    "name": "description",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "EN": {
+      "type": "text"
+    },
+    "DE": {
+      "type": "text"
+    },
+    "ES": {
+      "type": "text"
+    }
+  }
+}

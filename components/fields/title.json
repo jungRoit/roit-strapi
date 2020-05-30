@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_fields_titles",
+  "info": {
+    "name": "title",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "EN": {
+      "type": "string"
+    },
+    "DE": {
+      "type": "string"
+    },
+    "ES": {
+      "type": "string"
+    }
+  }
+}
