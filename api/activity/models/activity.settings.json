@@ -9,28 +9,15 @@
     "timestamps": true
   },
   "attributes": {
-    "title": {
-      "type": "string"
+    "en": {
+      "type": "component",
+      "repeatable": true,
+      "component": "language.en"
     },
-    "subTitle": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "pictures": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "price": {
-      "type": "decimal"
+    "de": {
+      "type": "component",
+      "repeatable": true,
+      "component": "language.de"
     }
   }
 }
